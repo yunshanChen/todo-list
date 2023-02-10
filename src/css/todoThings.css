@@ -1,0 +1,48 @@
+/* percent */
+.percent {
+  margin: 10px 0;
+  display: flex;
+}
+.percent .bar {
+  margin-left: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  flex-grow: 1;
+}
+.bar .inner-bar {
+  /* 控制進度條 */
+  /* width: 50%; */
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(152, 178, 255);
+}
+
+/* todo-things-list */
+.todo-things-list {
+  max-height: 300px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.todo-things-list li {
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid rgb(127, 144, 193);
+  border-radius: 5px;
+  display: flex;
+  background-color: #fff;
+}
+.todo-things-list li label {
+  margin-left: 10px;
+}
+
+.todo-things-list li .delete {
+  margin-left: auto;
+  border: none;
+  color: rgb(205, 211, 245);
+  font-weight: 600;
+  background-color: #fff;
+}
+.todo-things-list li .delete:hover {
+  cursor: pointer;
+  color: #000;
+}
